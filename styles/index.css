@@ -85,3 +85,27 @@ padding: 40px;
 .feature-item-1, .feature-item-2,.feature-item-3 >p{
     text-decoration: underline;
 }
+/* hot deal part */
+.span{
+    color: rgb(243, 19, 131);
+}
+.hot-deal-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#f9f1f3 ;
+    padding-top: 100px;
+}
+ 
+.hot-deal-title{
+    font-size:30px ;
+    font-weight: 700;
+    padding-bottom: 20px;
+    
+}
+.hot-deal-description{
+    font-size: 14px;
+    color: #27272799;
+  padding-bottom: 20px;
+}
+/* instagram part */
