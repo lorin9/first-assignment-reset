@@ -12,7 +12,15 @@ main{
     background-color: rgb(229, 49, 139);
     border-radius: 8px;
     border: none;
-    margin-left:50px ;
+    margin-left:300px ;
+}
+.btn-sign{
+    padding: 20px 40px;
+    color: white;
+    background-color: rgb(229, 49, 139);
+    border-radius: 8px;
+    border: none;
+    margin-left:370px ;
 }
 .banner{
     background-color: #efe8ea;
@@ -30,7 +38,7 @@ padding: 40px;
 }
 .banner-description{
     color:#27272799;
-    font-size: 14px;
+    font-size: 18px;
     padding: 30px 50px;
     margin-right: 30px;
 }
@@ -46,7 +54,7 @@ padding: 40px;
     padding-bottom: 24px;
 }
 .feature-description{
-    font-size: 14px;
+    font-size: 18px;
     color:#27272799;
     padding-bottom: 80px;
 
@@ -104,7 +112,7 @@ padding: 40px;
     
 }
 .hot-deal-description{
-    font-size: 14px;
+    font-size: 18px;
     color: #27272799;
   padding-bottom: 20px;
 }
@@ -112,13 +120,14 @@ padding: 40px;
 .insta{
    margin-top: 100px;
     text-align: center;
+    margin-bottom: 90px;
 }
 .insta-title{
     font-size: 30px;
     font-weight: 800;
 }
 .insta-description{
-    font-size: 14px;
+    font-size: 18px;
     color: #27272799;
   padding-bottom: 80px;
   padding-top: 20px;
@@ -131,9 +140,38 @@ padding: 40px;
 /* latest part */
 .latest{
 background-image: url("../Rectangle\ 9.png");
-background-size: 100%;
-  height: 100% ;
-  width: 100%;
+
+background-position: center;
+background-repeat: no-repeat;
+padding: 100px 0px;
+margin: 0px 250px;
+margin-bottom: 100px;
+}
+.latest-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.latest-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
+ #input{
+    text-align: center;
+    padding: 20px 200px;
+    border: none;
+    margin-left: 100px;
+    border-radius: 8px;
+}
+.btn{
+    padding: 20px 40px;
+    color: white;
+    background-color: rgb(229, 49, 139);
+    border-radius: 8px;
+    border: none;
 }
 /* footer */
 footer{
