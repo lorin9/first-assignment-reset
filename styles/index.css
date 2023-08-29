@@ -128,3 +128,29 @@ padding: 40px;
     width: 300px;
     padding-right: 24px;
 }
+/* latest part */
+.latest{
+background-image: url("../Rectangle\ 9.png");
+background-size: 100%;
+  height: 100% ;
+  width: 100%;
+}
+/* footer */
+footer{
+    background-color: black;
+}
+footer, h3,p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 70px;
+    
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    
+}
