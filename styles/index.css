@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+/* banner part */
+.btn-primary{
+    padding: 20px 40px;
+    color: white;
+    background-color: rgb(229, 49, 139);
+    border-radius: 8px;
+    border: none;
+    margin-left:50px ;
+}
+.banner{
+    background-color: #efe8ea;
+    display: flex;
+    align-items: center;
+}
+.banner-column{
+    margin-left: 130px;
+}
+.banner-title{
+font-size: 80px;
+font-weight: 800;
+padding: 40px;
+
+}
+.banner-description{
+    color:#27272799;
+    font-size: 14px;
+    padding: 30px 50px;
+    margin-right: 30px;
+}
