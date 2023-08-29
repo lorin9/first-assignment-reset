@@ -1,11 +1,43 @@
 *{
     margin: 0;
 }
-main{
-    margin: ;
+/* bonus part nav */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:white;
 }
+nav>h3{
+    color: rgb(221, 122, 139);
+    font-size: 40px;
+    font-weight: 800;
+}
+nav>ul{
+    display: flex;
+    gap: 50px;
+}
+nav li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+nav a{
+   text-decoration: none; 
+    color: rgb(240, 140, 157);
+    font-size: 25px;
+    font-weight: 700;
 
-/* banner part */
+}
+a:hover {
+    background-color: rgb(248, 242, 243);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+  .btn-2{ 
+    color: rgba (243, 19, 131);
+} 
 .btn-primary{
     padding: 20px 40px;
     color: white;
@@ -94,9 +126,8 @@ padding: 40px;
     text-decoration: underline;
 }
 /* hot deal part */
-.span{
-    color: rgb(243, 19, 131);
-}
+
+
 .hot-deal-container{
     display: flex;
     align-items: center;
@@ -133,8 +164,8 @@ padding: 40px;
   padding-top: 20px;
 }
 .insta-container >img{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     padding-right: 24px;
 }
 /* latest part */
