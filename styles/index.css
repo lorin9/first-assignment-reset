@@ -109,3 +109,22 @@ padding: 40px;
   padding-bottom: 20px;
 }
 /* instagram part */
+.insta{
+   margin-top: 100px;
+    text-align: center;
+}
+.insta-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.insta-description{
+    font-size: 14px;
+    color: #27272799;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+.insta-container >img{
+    height: 300px;
+    width: 300px;
+    padding-right: 24px;
+}
